@@ -1,0 +1,66 @@
+.contact {
+  background: #ffd6a5;
+  height: 200px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.quote {
+  font-size: 20px;
+  width: 400px;
+  text-align: center;
+  font-weight: 600;
+}
+.social-icons img {
+  width: 50%;
+}
+.social-icons span {
+  font-size: 10px;
+}
+.icons {
+  width: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+.social-icons {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .contact {
+    width: 100%;
+  }
+  .icons {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+  }
+  .quote {
+    font-size: 20px;
+    width: 85%;
+    text-align: center;
+    font-weight: 600;
+  }
+  .quote {
+    font-size: 20px;
+    width: 85%;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .social-icons img {
+    width: 40%;
+  }
+}
